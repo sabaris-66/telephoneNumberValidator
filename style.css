@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: gray;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 400px;
+  height: 500px;
+  padding: 30px;
+  margin: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: larger;
+  color: black;
+  border-radius: 25px;
+  border: solid black;
+  border-width: 20px;
+  border-top-width: 45px;
+  background-color: white;
+}
+
+button,
+input {
+  width: 80%;
+  box-sizing: content-box;
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  text-align: center;
+  font-weight: bolder;
+}
+
+input {
+  cursor: default;
+}
+
+.hidden {
+  display: none;
+}
